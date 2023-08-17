@@ -5,11 +5,11 @@ body{
 header{
 
     background:  #a6aecf;
-    padding: 30px 0;
+    padding: 50px 0;
 }
 
-.caixa{position: -ms-page;
-    width: 800px;
+.caixa{position: relative;
+    width: 600px;
     margin: 0 auto;
 }
 
@@ -21,7 +21,7 @@ nav {
 }
 
 nav li {
-     display: inline-flex;
+     display: inline;
      margin: 0 0 0 15px;
 
 }
@@ -34,13 +34,13 @@ nav a {
     text-decoration: none;
 }
 .imagem{
-   width: 4cm;
+    width: 30%;
 }
 
 
 footer{
-    background-color: rgb(116, 36, 53);
-    text-align: justify;
+    background-color: azure;
+    text-align: center;
     padding: 40px 0;
 }
 
@@ -102,60 +102,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-.professores{
-
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px 0;
+.imagem2{
+    width: 30%;
+    margin-left: auto;
 }
-
-.professores li{
- display: inline-block;
- text-align: center;
- width: 30%;
- vertical-align: top;
- margin: 0 1.5%;
- padding: 30px 20px;
- box-sizing: border-box;
- border: 2px solid #000000;
- border-radius: 10px;
-}
-
-.inicio li:hover{
-    border-color: #2aad30;
-}
-
-.inicio li:active {
-    border-color: #2a47bd;
-}
-
-.inicio li:hover h2{
-    font-size: 34px;
-}
-
-.inicio h2 {
-    font-size: 30px;
-    font-weight: bold;
-    font-style: oblique;
-}
-
-.imagens li:hover{
-    border-color: #2aad30;
-}
-
-.imagens li:active{
-    border-color: #a6aecf;
-}
-
-footer{
-    background-color:  #a6aecf;
-    text-align: center;
-    padding: 40px 0;
-}
-
-.copyrigth {
-    color: #000000;
-    font-size: 13px;
-    margin: 20px 0 0;
-}
-
